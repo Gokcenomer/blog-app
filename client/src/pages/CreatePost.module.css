@@ -1,0 +1,17 @@
+.container {
+  min-height: 100vh;
+}
+
+.form__create_post {
+  max-width: 1200;
+  padding: 2rem;
+  margin: 0 auto;
+}
+.textarea {
+  resize: none;
+  min-height: 400px;
+  overflow: hidden;
+}
+.button__post {
+  width: 30%;
+}

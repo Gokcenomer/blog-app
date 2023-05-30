@@ -1,0 +1,79 @@
+.container {
+  min-height: 100vh;
+  background-color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main {
+  background-color: white;
+  border-radius: 0.5rem;
+  padding: 2rem;
+  display: grid;
+  gap: 1rem;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  gap: 1rem;
+}
+.title {
+  text-align: center;
+  font-weight: 600;
+}
+input {
+  padding: 0.5rem 0.25rem;
+}
+
+.password__container {
+  display: flex;
+}
+.input__password {
+  width: 100%;
+}
+.password__container {
+  position: relative;
+}
+.button__show__password {
+  color: #000;
+  position: absolute;
+  right: 0;
+  height: 100%;
+  border: none;
+
+  background-color: white;
+}
+.button__show__password:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.link__forgot__password,
+.link__signup {
+  font-weight: 300;
+  text-align: center;
+  color: #000;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.line__container {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.create__account {
+  text-align: center;
+  font-weight: 300;
+}
+.line {
+  background-color: #000;
+  width: 100%;
+  height: 1px;
+}
+
+.container__google {
+  width: 100%;
+}
+.button__google {
+  width: 100%;
+}
